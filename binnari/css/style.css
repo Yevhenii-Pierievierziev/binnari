@@ -190,6 +190,7 @@ body._lock {
 ._container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .btn {
@@ -1072,29 +1073,12 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 1182px) {
-  ._container {
-    max-width: 970px;
-  }
-}
-
 @media (max-width: 991.98px) {
-  ._container {
-    max-width: 750px;
-  }
-
   .select__title {
     font-size: 18px;
   }
 
   .select__options {
     font-size: 18px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  ._container {
-    max-width: none;
-    padding: 0 10px;
   }
 }
